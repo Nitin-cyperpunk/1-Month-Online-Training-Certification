@@ -30,8 +30,9 @@ Make sure you have the following installed on your machine:
 
 To clone this repository to your local machine, run the following command:
 
-bash git clone (https://github.com/Nitin-cyperpunk/1-Month-Online-Training-Certification.git)
-
+```bash
+git clone https://github.com/Nitin-cyperpunk/1-Month-Online-Training-Certification
+```
 
 
 2. **Open the HTML File**:
