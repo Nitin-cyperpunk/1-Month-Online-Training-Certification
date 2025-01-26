@@ -1,0 +1,41 @@
+    
+    
+
+@import url('https://fonts.cdnfonts.com/css/coolvetica');
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+            width: 480px;
+            background-color: rgb(24, 23, 23);
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 115%; /* Position the tooltip above the text */
+            left: 50%;
+            margin-left: -100px; /* Use half of the width to center the tooltip */
+            opacity: 0;
+            transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover-bg-lighten:hover {
+    background: linear-gradient(to right, #4a4a4a, #6f6f6f);
+}
+.zoom-effect1:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
