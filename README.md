@@ -30,7 +30,7 @@ Make sure you have the following installed on your machine:
 
 To clone this repository to your local machine, run the following command:
 
-bash git clone [text](https://github.com/Nitin-cyperpunk/1-Month-Online-Training-Certification.git)
+bash git clone (https://github.com/Nitin-cyperpunk/1-Month-Online-Training-Certification.git)
 
 
 
@@ -47,7 +47,6 @@ If you have set up a Node.js server:
 - Navigate to `http://localhost:3000` in your web browser.
 
 ### Folder Structure
-
 
 
 web-dev-training/
