@@ -11,7 +11,7 @@
     
 </head>
 <body class="font-[coolvetica]  text-white">
-<div id="home" class="grid grid-cols-1 min-h-screen w-full overflow-hidden bg-cover bg-center " style="background-image: url('./PNG/bg.png');">
+<div id="home" class="grid grid-cols-1 min-h-screen w-full overflow-hidden bg-cover bg-center bg-fixed" style="background-image: url('./PNG/bg.png'); background-position: bottom;">
         <div class="flex flex-col lg:flex-row w-full lg:w-3/4 mt-11 mx-auto">
             <!-- Left side -->
             <div class="flex-1 rounded-lg p-4">
@@ -176,40 +176,43 @@
 
 
     
-<div class="foot bg-[#231f20] p-4">
-    <div class="relative w-full lg:w-[60%] mx-auto mt-[20px]">
-        <div class="flex border border-gray-200 p-6 rounded-lg text-6xl absolute -top-[60px] left-1/2 transform -translate-x-1/2 z-[10] text-white bg-[#231f20] space-x-8 justify-center items-center">
-            <div class="flex flex-col items-center">
-                <span id="days" class="countdown">07</span>
-                <span class="text-sm">Days</span>
-            </div>
-            <div class="flex flex-col items-center">
-                <span id="hours" class="countdown">19</span>
-                <span class="text-sm">Hours</span>
-            </div>
-            <div class="flex flex-col items-center">
-                <span id="minutes" class="countdown">26</span>
-                <span class="text-sm">Minutes</span>
-            </div>
-            <div class="flex flex-col items-center">
-                <span id="seconds" class="countdown">13</span>
-                <span class="text-sm">Seconds</span>
+    <div class="min-h-[50vh] w-full overflow-hidden bg-cover bg-center bg-fixed" style="background-image: url('./PNG/bg.png'); background-position: bottom;">
+        <div class="foot  p-6 mt-6">
+            <div class="relative w-full max-w-3xl mx-auto mt-6">
+                <!-- This is the bottom div -->
+                <div class="w-full px-6 shadow-2xl rounded-lg text-center items-center justify-center border border-gray-300 mt-6 ">
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl text-white mt-[12%]">
+                        🎓 Join the Achievers: Unlock the Power of 
+                        <span class="text-2xl md:text-3xl lg:text-4xl text-[#00FD65]">HTML, CSS, Bootstrap & JavaScript</span> in Our Certified Training!
+                    </h1>
+                    <br>
+                    <button onclick="scrollToSection('home')" class="w-auto h-auto relative mt-5 text-center bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 focus:outline-none animate-bounce">
+                        <span class="text-lg md:text-xl lg:text-2xl">👆START THE JOURNEY TO SUCCESS! 🚀</span>
+                    </button>
+                </div>
+        
+                <!-- This is the overlapping div -->
+                <div class="flex border border-gray-200 p-4 rounded-lg text-lg md:text-xl lg:text-6xl absolute -top-11 left-1/2 transform -translate-x-1/2 z-10 text-white bg-[#231f20] space-x-5 md:space-x-11">
+                    <div class="flex flex-col items-center">
+                        <span id="days" class="countdown">07</span>
+                        <span class="text-sm">Days</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span id="hours" class="countdown">19</span>
+                        <span class="text-sm">Hours</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span id="minutes" class="countdown">26</span>
+                        <span class="text-sm">Minutes</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span id="seconds" class="countdown">13</span>
+                        <span class="text-sm">Seconds</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- Main Content Below -->
-        <div class="w-full px-6 shadow-2xl rounded-lg text-center border border-gray-300 mt-[60px] bg-[#231f20] z-[1] relative">
-            <h1 class="text-4xl md:text-5xl text-white mt-[28%] px-4">🎓 Join the Achievers: Unlock the Power of 
-                <span class="text-4xl text-green-400">HTML, CSS, Bootstrap & JavaScript</span> in Our Certified Training!
-            </h1><br>
-            <button onclick="scrollToSection('home')" 
-                    class="w-auto h-auto relative mt-5 text-center bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 focus:outline-none animate-bounce ml-[2%] ">
-                <span class="text-xl md:text-2xl">👆START THE JOURNEY TO SUCCESS! 🚀</span>
-            </button>
         </div>
-
-    </div>
-  </div>  
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
 </body>
