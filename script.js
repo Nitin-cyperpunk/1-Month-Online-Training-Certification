@@ -5,7 +5,7 @@ function scrollToSection(sectionId) {
 
 
 // Set the date we're counting down to
-const countDownDate = new Date("Feb 01, 2025 11:59:59").getTime();
+const countDownDate = new Date("Feb 28, 2025 11:59:59").getTime();
 
 // Update the countdown every 1 second
 const x = setInterval(function() {
